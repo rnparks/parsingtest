@@ -5,10 +5,5 @@ class FinancialsController < ApplicationController
     @shit = @response.css('table')
 
 
-
-
-
-
-
   end
 end
