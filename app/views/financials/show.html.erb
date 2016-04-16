@@ -7,6 +7,6 @@
 
 <% @shit.each do |tables| %>
 <br>
-<%= tables %>
+<%= tables.to_s.html_safe %>
 <br>
 <% end %>
